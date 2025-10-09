@@ -43,24 +43,26 @@ echo "✍️  Adding content to books..."
 cat > le-istitutioni-harmoniche/src/SUMMARY.md << 'EOF'
 # Summary
 
-[Introduction](./introduction.md)
+[LE ISTITUTIONI HARMONICHE](./cover-page.md)
+[THE HARMONIC INSTITUTIONS](./title-page.md)
+[Preface](./preface.md)
 
-# Getting Started
-- [Installation](./installation.md)
-- [Hello World](./hello-world.md)
-
-# Fundamentals
-- [Ownership](./ownership.md)
-- [Borrowing](./borrowing.md)
-- [Lifetimes](./lifetimes.md)
+# Part 1
+- [P1 Chapter 1](./p1-01.md)
+- [P1 Chapter 2](./p1-02.md)
+- [P1 Chapter 3](./p1-03.md)
 EOF
 
 cat > le-istitutioni-harmoniche/src/introduction.md << 'EOF'
-# Introduction to Rust
+# Cover
 
-Welcome to the Rust Programming Guide!
+LE ISTIUTIONI HARMONICHE
 
-## What is Rust?
+By M. GIOSEFFO ZARLINO OF CHIOGGIA
+
+Venice, 1558
+
+# Title Page
 
 Rust is a systems programming language focusing on safety, speed, and concurrency.
 
