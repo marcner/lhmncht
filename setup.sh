@@ -47,7 +47,7 @@ cat > le-istitutioni-harmoniche/src/SUMMARY.md << 'EOF'
 [THE HARMONIC INSTITUTIONS](./title-page.md)
 [Preface](./preface.md)
 
-- [Part 1]
+- [Part 1](./part1.md)
   - [Chapter 1](./p1-01.md)
   - [Chapter 2](./p1-02.md)
   - [Chapter 3](./p1-03.md)
@@ -141,6 +141,7 @@ All these things truly give the clearest testimony to the World of your rare vir
 
 EOF
 
+touch le-istitutioni-harmoniche/src/part1.md
 touch le-istitutioni-harmoniche/src/p1-01.md
 touch le-istitutioni-harmoniche/src/p1-02.md
 touch le-istitutioni-harmoniche/src/p1-03.md
@@ -199,48 +200,36 @@ touch harmonielehre/src/part1-1-2.md
 cat > harmonie-universelle/src/SUMMARY.md << 'EOF'
 # Summary
 
-[Introduction](./introduction.md)
+[HARMONIE UNIVERSELLE](./cover.md)
+[Universal Harmony](./title-page.md)
 
-# Fundamentals
-- [REST Principles](./rest-principles.md)
-- [HTTP Methods](./http-methods.md)
+[ToP of the Nineteen Books of Universal Harmony](./preface.md)
+- [34 Propositions from the First Book on the Nature of Sounds](./prop34-first-bk.md)
 
-# Design
-- [Resource Naming](./resource-naming.md)
-- [Versioning](./versioning.md)
 EOF
 
-cat > harmonie-universelle/src/introduction.md << 'EOF'
-# API Design Patterns
+cat > harmonie-universelle/src/cover.md << 'EOF'
+# HARMONIE UNIVERSELLE
 
-Learn to design great APIs!
+*Nam & ego confitebor tibi in vasis psalmi veritatem tuam:*
+*Deus psallam tibi in Cithara, sanctus Israël.* Psalme 70.
 
-## What Makes a Great API?
-
-- Intuitive
-- Consistent
-- Well-documented
-- Secure
-- Scalable
 EOF
 
-cat > harmonie-universelle/src/rest-principles.md << 'EOF'
-# RESTful Principles
+cat > harmonie-universelle/src/title-page.md << 'EOF'
 
-REST API basics:
+# Universal Harmony
 
-```
-GET    /users          # List users
-GET    /users/123      # Get user
-POST   /users          # Create user
-PUT    /users/123      # Update user
-DELETE /users/123      # Delete user
-```
+## CONTAINING THE THEORY AND PRACTICE OF MUSIC
+
+Where is treated the Nature of Sounds and Movements, of Consonances, Dissonances, Genres, Modes, Composition, the Voice, Songs, and all sorts of Harmonic Instruments.
+
+**By F. MARIN MERSENNE of the Order of Minims**
+
 EOF
 
-touch harmonie-universelle/src/http-methods.md
-touch harmonie-universelle/src/resource-naming.md
-touch harmonie-universelle/src/versioning.md
+touch harmonie-universelle/src/preface.md
+touch harmonie-universelle/src/prop34-first-bk.md
 
 echo "✅ Content added!"
 echo ""
@@ -253,7 +242,7 @@ cat > index.html << 'EOF'
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>L'Harmonicht</title>
+    <title>L'harmonicht</title>
     <style>
         * {
             margin: 0;
