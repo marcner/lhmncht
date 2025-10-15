@@ -1,13 +1,19 @@
+# Complete Translation of the Preface
 
-### THE FIRST PART
+## AI LETTORI (TO THE READERS)
 
-## Of the Harmonic Institutions
-## BY M. GIOSEFFO ZARLINO OF CHIOGGIA
+If I see, my most kind readers, that these labors of mine are truly dear to you, I will strive to give you, as soon as I can make it, these same institutions made in the Latin language, along with the HARMONIC DEMONSTRATIONS mentioned in several places of this work, and some other things besides, to which I have not yet (as they say) put the final hand. In the meantime, read with a cheerful and sincere spirit that which I have labored over for many years to benefit you. And if you find anything that does not fully satisfy you, remember that I am human; and I do not think, as that good old Terentian used to say, that anything pertaining to man is foreign to me. I mean to infer that it could very well be that I have erred in something, since we are all subject to such law. And that this is true, you can now recognize from the fact that despite all the diligence that has been used in printing, it has not been possible to prevent some errors from occurring in several sheets of some books (though not in all); which you will gladly correct before you begin reading. By doing this, you will show how kind you are in pardoning those [errors] that might be (if any are found) of some importance and cannot be understood except by the intellect. The first number is that of the page of the work, and the second that of the line.
 
-
-### Proemio (Preface)
+[*Extensive errata list follows with page and line corrections - detailed list of printing errors to be corrected*]
 
 ---
+
+## LA PRIMA PARTE
+## Delle istitutioni harmoniche
+## DI M. GIOSEFFO ZARLINO
+## DA CHIOGGIA
+
+### Proemio
 
 **M**any times thinking to myself and turning over in my mind various things that the supreme God has through His benignity given to mortals, I have clearly understood that among the most marvelous is having granted them the particular grace of using articulated voice; by means of which alone man was made capable, above other animals, of being able to send forth all those thoughts that he had conceived within his mind. And there is no doubt that through it is manifestly shown how much he differs from beasts and how much he is their superior. And I believe that one can truly say that this gift has been of the greatest utility to human generation: because no other thing, if not speaking, induced and drew men, who at first were scattered in the forests and mountains, living almost the life of beasts, to gather together to inhabit and live in company, according to what is required by human nature, and to build cities and castles; and united by virtue of good orders to preserve themselves, and dealing one with another, to offer help in all their needs.
 

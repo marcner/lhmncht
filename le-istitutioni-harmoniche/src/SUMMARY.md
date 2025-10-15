@@ -4,7 +4,11 @@
 [THE HARMONIC INSTITUTIONS](./title-page.md)
 [Preface](./preface.md)
 
-- [Part 1](./part1.md)
-  - [Chapter 1](./p1-01.md)
-  - [Chapter 2](./p1-02.md)
-  - [Chapter 3](./p1-03.md)
+---
+
+[Part 1](./part1.md)
+  - [ON THE ORIGIN AND CERTAINTY OF MUSIC](./p1-01.md)
+  - [ON THE PRAISES OF MUSIC](./p1-02.md)
+  - [TO WHAT END MUSIC SHOULD BE LEARNED](./p1-03.md)
+  - [ON THE UTILITY THAT ONE HAS FROM MUSIC, AND THE STUDY THAT WE SHOULD PUT INTO IT, AND IN WHAT MODE TO USE IT](p1-04.md)
+  - [WHAT MUSIC IS IN GENERAL, AND OF ITS DIVISION](p1-05.md)
