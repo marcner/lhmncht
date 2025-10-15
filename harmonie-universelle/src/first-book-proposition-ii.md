@@ -1,0 +1,11 @@
+## FIRST BOOK ON THE NATURE AND PROPERTIES OF SOUND.
+
+### PROPOSITION II.
+
+---
+
+To determine how the movement & the Sound are made, & whence it comes that several very swift & very rapid movements make no Sound that can be heard, as are the movements of several wheels, & of other bodies that move in air or in water: & that several very small movements make great Sounds.
+
+THIS Proposition will serve to respond to the objections that can be made against the preceding one, & will show why we hear great Sounds, where the movements seem to be very small. Those who say that Sound is different from the movement of air bring forward several reasons, of which the first is, that the object of hearing must be a quality, like that of the other senses, & that movement is a common object of all the senses. The second, that air cannot penetrate walls, through which one hears noise. The third, that two men could not hear the words that they would say at the same time, because air cannot receive two contrary movements at the same time: & that there is no appearance that the air is moved in such a great space, as is that in which one hears the voice. The fourth, that several small movements of air often make more noise than larger ones, as I said at the beginning. But it is easy to respond to these difficulties, for it suffices that the object of each sense be proportional to the organ, & to the power of the soul which is touched by the intermediary of the senses, without it being necessary to attach it to quality rather than to quantity: although one can say that the movement of air, of water, or of some other body has the quality of making itself heard: but this consideration puts nothing new in the movement of air, which is just as much movement without the ear, as when one supposes the ear, although one does not call it Sound, until it has struck the drum of the ear, to which it imprints a movement similar to itself, which does not prevent it from having the complete nature of Sound, although it never serves the ear.
+
+One must therefore say that Sound being simply considered in quality of Sound is nothing real, only a simple consideration & affection of movement,
