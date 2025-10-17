@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>L'harmonicht</title>
+    <title>L'Harmonicht</title>
     <style>
         * {
             margin: 0;
@@ -12,132 +12,269 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            font-family: "Source Serif Pro", Georgia, Times, "Times New Roman", serif;
+            line-height: 1.6;
+            color: #3d3d3d;
+            background: #fafafa;
+            max-width: 900px;
+            margin: 0 auto;
             padding: 40px 20px;
+            transition: background-color 0.3s, color 0.3s;
         }
 
-        .container {
-            max-width: 1200px;
-            width: 100%;
+        body.dark {
+            background: #1a1a1a;
+            color: #d4d4d4;
         }
 
         header {
-            text-align: center;
-            color: white;
-            margin-bottom: 60px;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 30px;
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        body.dark header {
+            border-bottom-color: #404040;
         }
 
         h1 {
-            font-size: 48px;
+            font-size: 36px;
+            font-weight: 600;
+            color: #2a2a2a;
             margin-bottom: 10px;
         }
 
+        body.dark h1 {
+            color: #e8e8e8;
+        }
+
         .subtitle {
-            font-size: 20px;
-            opacity: 0.9;
+            font-size: 18px;
+            color: #6a6a6a;
+            font-weight: normal;
         }
 
-        .books-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 30px;
+        body.dark .subtitle {
+            color: #999;
         }
 
-        .book-card {
-            background: white;
-            border-radius: 12px;
-            padding: 30px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-            transition: transform 0.3s, box-shadow 0.3s;
-            text-decoration: none;
-            color: inherit;
-            display: block;
+        .theme-toggle {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: none;
+            border: 1px solid #d0d0d0;
+            border-radius: 6px;
+            padding: 8px 16px;
+            cursor: pointer;
+            font-size: 14px;
+            color: #555;
+            transition: all 0.2s;
         }
 
-        .book-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+        .theme-toggle:hover {
+            background: #f0f0f0;
+            border-color: #b0b0b0;
         }
 
-        .book-icon {
-            font-size: 64px;
-            margin-bottom: 20px;
+        body.dark .theme-toggle {
+            border-color: #505050;
+            color: #aaa;
+        }
+
+        body.dark .theme-toggle:hover {
+            background: #2a2a2a;
+            border-color: #606060;
+        }
+
+        .books-list {
+            list-style: none;
+        }
+
+        .book-item {
+            border-bottom: 1px solid #ececec;
+            padding: 30px 0;
+        }
+
+        body.dark .book-item {
+            border-bottom-color: #303030;
+        }
+
+        .book-item:last-child {
+            border-bottom: none;
         }
 
         .book-title {
             font-size: 24px;
-            font-weight: 600;
-            margin-bottom: 10px;
-            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .book-title a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        body.dark .book-title a {
+            color: #60a5fa;
+        }
+
+        .book-title a:hover {
+            text-decoration: underline;
+        }
+
+        .book-meta {
+            font-size: 14px;
+            color: #6a6a6a;
+            margin-bottom: 12px;
+        }
+
+        body.dark .book-meta {
+            color: #999;
         }
 
         .book-description {
-            color: #666;
-            line-height: 1.6;
-            margin-bottom: 20px;
+            color: #4a4a4a;
+            font-size: 16px;
+            line-height: 1.7;
         }
 
-        .book-link {
-            color: #667eea;
-            font-weight: 500;
+        body.dark .book-description {
+            color: #b8b8b8;
         }
 
         footer {
+            margin-top: 80px;
+            padding-top: 30px;
+            border-top: 1px solid #e0e0e0;
             text-align: center;
-            color: white;
-            margin-top: 60px;
-            opacity: 0.8;
+            color: #888;
+            font-size: 14px;
+        }
+
+        body.dark footer {
+            border-top-color: #404040;
+            color: #777;
         }
 
         @media (max-width: 768px) {
-            h1 { font-size: 36px; }
+            body {
+                padding: 20px 15px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            .book-title {
+                font-size: 20px;
+            }
+
+            .theme-toggle {
+                position: static;
+                display: block;
+                margin: 20px auto 0;
+                width: fit-content;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>📚 L'Harmonicht</h1>
-            <p class="subtitle">Choose a guide to get started</p>
-        </header>
+<header>
+    <h1>L'Harmonicht</h1>
+    <p class="subtitle">A collection of historical treatises on music theory and harmony</p>
+    <button class="theme-toggle" onclick="toggleTheme()" id="themeToggle">
+        ☀️ Light
+    </button>
+</header>
 
-        <div class="books-grid">
-            <a href="./le-istitutioni-harmoniche/book/index.html" class="book-card">
-                <div class="book-icon">🦀</div>
-                <h2 class="book-title">Le Istitutioni Harmoniche</h2>
-                <p class="book-description">
-                    Le Istitutioni Harmoniche
-                </p>
-                <span class="book-link">Start reading →</span>
-            </a>
+<main>
+    <ul class="books-list" id="booksList"></ul>
+</main>
 
-            <a href="./harmonielehre/book/index.html" class="book-card">
-                <div class="book-icon">🌐</div>
-                <h2 class="book-title">Harmonielehre</h2>
-                <p class="book-description">
-                    Harmonielehre
-                </p>
-                <span class="book-link">Start reading →</span>
-            </a>
+<footer>
+    <p>Built with mdBook</p>
+</footer>
 
-            <a href="./harmonie-universelle/book/index.html" class="book-card">
-                <div class="book-icon">🔌</div>
-                <h2 class="book-title">Harmonie Universelle</h2>
-                <p class="book-description">
-                    Harmonie Universelle
-                </p>
-                <span class="book-link">Start reading →</span>
-            </a>
-        </div>
+<script>
+    // Book data - easy to maintain and extend
+    const books = [
+        {
+            title: "Le Istitutioni Harmoniche",
+            author: "Gioseffo Zarlino",
+            year: 1558,
+            description: "A foundational treatise on Renaissance music theory, covering counterpoint, modes, and the mathematical principles of harmony.",
+            path: "./le-istitutioni-harmoniche/book/index.html"
+        },
+        {
+            title: "Harmonielehre",
+            author: "Arnold Schoenberg",
+            year: 1911,
+            description: "A comprehensive theory of harmony that bridges traditional tonality and modern compositional techniques.",
+            path: "./harmonielehre/book/index.html"
+        },
+        {
+            title: "Harmonie Universelle",
+            author: "Marin Mersenne",
+            year: 1636,
+            description: "An encyclopedic work examining the mathematical, physical, and philosophical foundations of music and sound.",
+            path: "./harmonie-universelle/book/index.html"
+        }
+    ];
 
-        <footer>
-            <p>Built with ❤️ using mdBook</p>
-        </footer>
-    </div>
+    // Generate the book list
+    function renderBooks() {
+        const container = document.getElementById('booksList');
+
+        books.forEach(book => {
+            const li = document.createElement('li');
+            li.className = 'book-item';
+
+            li.innerHTML = `
+                    <h2 class="book-title">
+                        <a href="${book.path}">${book.title}</a>
+                    </h2>
+                    <div class="book-meta">
+                        ${book.author}${book.year ? ` • ${book.year}` : ''}
+                    </div>
+                    <p class="book-description">${book.description}</p>
+                `;
+
+            container.appendChild(li);
+        });
+    }
+
+    // Theme toggle
+    function toggleTheme() {
+        const body = document.body;
+        const button = document.getElementById('themeToggle');
+
+        body.classList.toggle('dark');
+
+        if (body.classList.contains('dark')) {
+            button.textContent = '🌙 Dark';
+            localStorage.setItem('theme', 'dark');
+        } else {
+            button.textContent = '☀️ Light';
+            localStorage.setItem('theme', 'light');
+        }
+    }
+
+    // Load saved theme preference
+    function loadTheme() {
+        const savedTheme = localStorage.getItem('theme');
+        const body = document.body;
+        const button = document.getElementById('themeToggle');
+
+        if (savedTheme === 'dark') {
+            body.classList.add('dark');
+            button.textContent = '🌙 Dark';
+        }
+    }
+
+    // Initialize on page load
+    loadTheme();
+    renderBooks();
+</script>
 </body>
 </html>

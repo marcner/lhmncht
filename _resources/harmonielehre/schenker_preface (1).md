@@ -28,26 +28,26 @@ Finally, the problem comes down to this: given that the minor triad does not at 
 
 **First Main Section. Foundation of the Systems**
 
-**1. Chapter. The Natural System (Major)** . . . . . . . . . . . . . . 3
-- § 1. Music and Nature . . . . . . . . . . . . . . . . . . . 3
-- § 2. Motive as the Only Ideational Association of Music . . . 4
-- § 3. The Becoming of Art in Music . . . . . . . . . . . . 4
-- § 4. Repetition as Principle of the Motive . . . . . . . . 4
-- § 5. Repetition as Principle of Form . . . . . . . . . . . 10
-- § 6. The Biological in the Forms . . . . . . . . . . . . . 19
-- § 7. Abolition of Parallelism as a State of Exception . . . 21
-- § 8. The Problem of System-Building in Music . . . . . . . 32
-- § 9. The Overtone Series and the Viable Conclusions from It for the System . . . . . . . . . . . . . . 34
-- § 10. Critique and Refutation of These Conclusions . . . . 35
-- § 11. The Fifth as the Last Divisional Principle Recognized for Our System . . . . . . . . . . . . . . . . . . . 37
-- § 12. The Precedence of the Fifth . . . . . . . . . . . . 39
-- § 13. The Triad in Nature and in the System . . . . . . . 39
-- § 14. The Precedence of the Fifth Relation Among Tones Deduced from the Precedence of the Fifth . . . . . . 42
-- § 15. Contradictions Between Fundamental Affinity and Mutual Relation of Tones . . . . . . . . . . . . . 43
-- § 16. Inversion as Counterpart to Development . . . . . . 44
-- § 17. The Discovery of the Lower Fifth as a Consequence of Inversion and Its Admission into the System . . . . 51
-- § 18. Final Resolution of the Contradictions and Founding of the System . . . . . . . . . . . . . . . . . . . 54
-- § 19. Explanations of Some Elements of the System . . . . 55
+**1. Chapter. The Natural System (Major)**
+- § 1. Music and Nature
+- § 2. Motive as the Only Ideational Association of Music
+- § 3. The Becoming of Art in Music
+- § 4. Repetition as Principle of the Motive
+- § 5. Repetition as Principle of Form
+- § 6. The Biological in the Forms
+- § 7. Abolition of Parallelism as a State of Exception
+- § 8. The Problem of System-Building in Music
+- § 9. The Overtone Series and the Viable Conclusions from It for the System
+- § 10. Critique and Refutation of These Conclusions
+- § 11. The Fifth as the Last Divisional Principle Recognized for Our System
+- § 12. The Precedence of the Fifth
+- § 13. The Triad in Nature and in the System
+- § 14. The Precedence of the Fifth Relation Among Tones Deduced from the Precedence of the Fifth
+- § 15. Contradictions Between Fundamental Affinity and Mutual Relation of Tones
+- § 16. Inversion as Counterpart to Development
+- § 17. The Discovery of the Lower Fifth as a Consequence of Inversion and Its Admission into the System
+- § 18. Final Resolution of the Contradictions and Founding of the System
+- § 19. Explanations of Some Elements of the System
 
 **2. Chapter. The Artificial System (Minor)** . . . . . . . . . . 59
 - § 20. Identity of Our Minor with the Old Aeolian System . 59
